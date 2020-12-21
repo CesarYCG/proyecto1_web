@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box; /*Incluye pixeles dentro del border, no toma externos*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER NAVBAR */
+.navbar{
+	width: 100%;
+	padding-top:0px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #D3B826;
+}
+
+.nav-link{
+	color:white !important;
+	margin-right: 4em;
+}
+
+.bg-dark{
+	background-color: #000 !important;
+}
+
+.navbar-brand img{
+	height: 64px;
+	width: auto;
+	padding: 8px;
+	margin-right: 4em; 
+}
+
+/*-----------MAIN------------*/
+
+/*Nuestra historia*/
+.history{
+	background-color: black;
+}
+.our-history img{ /*Img de ordena aqui* */
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #D3B826;
+	margin-top: 4%;
+	transition: 10s;
+}
+
+.our-history:hover{
+	transform: scale(1.1);
+}
+
+/* El Mucho tecsto */
+
+.title-new-stuff{
+	color: red !important;
+}
+
+.title-new-stuff img{
+	width: 30px;
+	height: 30px;
+}
+
+/*El comienzo...*/
+h4{
+	color: #D3B826;
+}
+p{
+	color: white;
+}
+.inicios img{
+	max-width: 240px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-image: none
+}
+
+/*Tiempo despues */
+.tiempo-despues img{
+	max-width: 460px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin:3px solid #D3B826; 
+}
+
+/*Actualmente*/
+.actualmente img{
+	max-width: 460px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	margin-bottom: 10%;
+
+}
+
+/*----------------FOOTER------------*/
+.footer-part{
+	background-color: #2F261E;
+}
+.column-2{
+	margin-top: 2%;
+	float: left;
+	width: 33.33%;
+	text-align: center;	
+}
+
+.row-2:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+

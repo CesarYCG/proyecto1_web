@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #211E1E;
+}
+
+.registro{
+	max-width: 400px;
+	width: 100%;
+	background: #324473;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4%;
+	border-radius: 4px; /*Redondea borde del formulario*/
+	color: white;
+	box-shadow: 7px 13px 37px #000; /*Sombra del formulario*/
+}
+
+.registro h4{
+	font-size: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: white;
+}
+
+.registro p{
+	color: white;
+}
+
+.registro a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.control{ /*Para el espaciado entre las casillas*/
+	max-width:396px;
+	width: 100%;
+	padding: 6px;
+	border-radius: 6px;
+	margin-bottom: 1em; 
+	border: 2px solid #D3B826;
+	font-size: 1em;
+}
+
+.registro .boton{
+	width: 100%;
+	background: #0C3192;
+	margin-bottom: 6px;
+	border: none;
+	color: white;
+	margin-left: -10px;
+
+}
+
+.registro .boton-cancelar{
+	width: 100%;
+	background: #BC2F2F;
+	border: none;
+	color: white;
+	margin-left: -10px;
+}

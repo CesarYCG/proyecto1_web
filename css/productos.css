@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box; /*Incluye pixeles dentro del border, no toma externos*/
+	font-family: 'Montserrat', sans-serif;
+}
+/* HEADER NAVBAR */
+.navbar{
+	width: 100%;
+	padding-top:0px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #D3B826;
+}
+
+.nav-link{
+	color:white !important;
+	margin-right: 4em;
+}
+
+.bg-dark{
+	background-color: #000 !important;
+}
+
+.navbar-brand img{
+	height: 64px;
+	width: auto;
+	padding: 8px;
+	margin-right: 4em; 
+}
+
+/* MAIN */
+.home{
+	background-color: black;
+}
+
+.products{
+	background-color: black;
+
+}
+.products-image img{
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+/*Wafflesito*/
+
+.title-new-stuff{
+	color: red !important;
+}
+
+.title-new-stuff img{
+	width: 30px;
+	height: 30px;
+}
+
+/*columnas*/
+
+.new .column-new{
+	float: left;
+	width: 33.33%; /*Almost 100% */
+	padding: 10px;
+}
+
+.new:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+.new .column-new h2{
+	color: #D3B826 !important;
+	margin-top: 10px;
+	line-height: 90%;
+}
+
+.new .column-new p{
+	color: white !important;
+}
+
+.new .column-new img{
+	border: 3px solid #D3B826;
+	max-width: 337px;
+	width: 100%;
+	height: 190px;
+}
+
+/*Footer columnas*/
+
+.footer-part{
+	background-color: #2F261E;
+	width: 100%;
+}
+
+.column-2{
+	margin-top: 2%;
+	float: left;
+	width: 33.33%;
+	text-align: center;	
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Columnas responsivas del footer */
+@media screen and (max-width: 600px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+
+
+/*Si la pantalla es menor a 600px, las tres columnas
+se apilaran una encima de otra*/
+@media screen and (max-width: 600px){
+	.new .column-new {
+		width: 100%;
+	}
+}
+
+
